@@ -92,7 +92,7 @@ public class LoginAction extends BaseAction{//ActionSupport{//extends BaseAction
 	//@Result(name="success",location="/content/template/main.vm", type="velocity"),
 	//@Result(name="success",location="/content/jsptemplate/main.jsp", type="dispatcher"),
 	@Action(value = "login", results = { 
-			@Result(name="success",location="/content/template/main.vm", type="velocity"),
+			@Result(name="success",location="/template/main.vm", type="velocity"),
 			@Result(name="error",location="/content/exception.jsp", type="velocity")
 	})
 	public String login() throws Exception{
